@@ -13,6 +13,7 @@ export function getSocket(auth = {}) {
   if (socket) socket.disconnect();
   identity = id;
   socket = io(SOCKET_URL, { withCredentials: true, auth: { adminToken: auth.adminToken, visitorToken: auth.visitorToken } });
+  socket.on('connect_error', (err) => console.warn('[socket] เหตุผล:', err.message));
   return socket;
 }
 
