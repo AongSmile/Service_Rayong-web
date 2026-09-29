@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
         </Section>
 
         <Section n="7" title="ผู้ควบคุมข้อมูลส่วนบุคคลและเจ้าหน้าที่คุ้มครองข้อมูล (DPO)">
-          <p className="text-sm leading-7 text-ink-soft">[ชื่อหน่วยงาน/บริษัท] · ที่อยู่ติดต่อ · อีเมล DPO: dpo@example.org · โทร: 0X-XXX-XXXX — กรุณาแก้ไขเป็นข้อมูลจริงของหน่วยงานก่อนใช้งาน</p>
+          <p className="text-sm leading-7 text-ink-soft">สำนักงานพัฒนาสังคมและความมั่นคงของมนุษย์จังหวัดระยอง · ศาลากลางจังหวัดระยอง ชั้น 1 · อีเมล DPO: tamrong.s@m-society.go.th · โทร: 038-694-075</p>
         </Section>
 
         <footer className="mt-16 border-t-2 border-ink pt-3.5 font-mono text-[11px] text-ink-soft">
